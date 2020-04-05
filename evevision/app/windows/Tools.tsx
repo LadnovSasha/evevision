@@ -9,16 +9,6 @@ const Tools = () => {
   })
   return (
       <Panel>
-        <h3>Horde Services</h3>
-        <Button onClick={() => {
-          ipcRenderer.send("openWindow", "externalsite", "https://www.pandemic-horde.org/");
-        }}>Square</Button>
-        <Button onClick={() => {
-          ipcRenderer.send("openWindow", "externalsite", "https://pgsus.space/");
-        }}>Penny's Flying Circus</Button>
-        <Button onClick={() => {
-          ipcRenderer.send("openWindow", "externalsite", "http://qymm.space/");
-        }}>Qymm's Maps</Button>
         <br/><br/><h3>Industry</h3>
         <Button onClick={() => {
           ipcRenderer.send("openWindow", "externalsite", "https://evemarketer.com/");
@@ -38,13 +28,13 @@ const Tools = () => {
           ipcRenderer.send("openWindow", "externalsite", "https://evemaps.dotlan.net/");
         }}>Dotlan</Button>
         <Button onClick={() => {
-          ipcRenderer.send("openWindow", "externalsite", "https://eveeye.com/");
-        }}>EveEye</Button>
+          ipcRenderer.send("openWindow", "externalsite", "https://eve-wh.space/signatures/");
+        }}>Wh space</Button>
         <Button onClick={() => {
           ipcRenderer.send("openWindow", "externalsite", "https://dscan.info/");
         }}>DScan</Button>
         <Button onClick={() => {
-          ipcRenderer.send("openWindow", "externalsite", "https://tripwire.eve-apps.com/");
+          ipcRenderer.send("openWindow", "externalsite", "https://synd.slkk.online/tripwire/");
         }}>Tripwire</Button>
         <br/><br/><h3>Info</h3>
         <Button onClick={() => {
